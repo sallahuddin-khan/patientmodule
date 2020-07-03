@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#74A6BD"
+    android:backgroundTint="#CB2196F3"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="222dp"
+        android:layout_height="111dp"
+        android:backgroundTint="#DF1A724C"
+        android:bottomLeftRadius="100dp"
+        android:bottomRightRadius="10dp"
+        android:fontFamily="sans-serif-black"
+        android:onClick="signIn"
+        android:shadowColor="#B91515"
+        android:text="Sign In to Application"
+        android:textColor="#F3F0F0"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.641" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="370dp"
+        android:layout_height="160dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome to Automated Diagnostic System"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F5F1F1"
+        android:textDirection="firstStrong"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.237" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

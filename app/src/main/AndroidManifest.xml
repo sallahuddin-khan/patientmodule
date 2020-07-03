@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.automateddiagnosticsystem">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddFollowOn">
+        </activity>
+        <activity android:name=".MedicineDetails" />
+        <activity android:name=".doctorPopUp"
+            android:windowSoftInputMode="adjustResize"
+            ></activity>
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MakeNewAccount" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".morningAlarmBroadcast"></receiver>
+
+        <service android:enabled="true" android:name=".followUpListeningService">
+        </service>
+
+
+    </application>
+
+</manifest>

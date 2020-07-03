@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1066738716335",
+    "firebase_url": "https://automated-diagnostic-system.firebaseio.com",
+    "project_id": "automated-diagnostic-system",
+    "storage_bucket": "automated-diagnostic-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1066738716335:android:b58730750ad37bbc540e5a",
+        "android_client_info": {
+          "package_name": "com.example.automateddiagnosticsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1066738716335-rd531fnu3hft1dcsja1fi5oa72s21c1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.automateddiagnosticsystem",
+            "certificate_hash": "895e75c595c2f20748c71c740ef3b54a5242440f"
+          }
+        },
+        {
+          "client_id": "1066738716335-dhm6eg7aqbhh2sm61qqia8l14tvglpsl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrzsL5cNi5wi7jIu7LZoTskTNSjgWvNdg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1066738716335-dhm6eg7aqbhh2sm61qqia8l14tvglpsl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
